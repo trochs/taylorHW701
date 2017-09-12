@@ -13,3 +13,9 @@ echo "Celsius"
 # This will include 2 decimal point. Can change scale to include more (or less) decimal points
 echo " scale=2; ($1-32) / (9/5) " | bc
 
+# Output Kelvin
+echo "Kelvin"
+
+# Convert F to K using bc (basic calculator)
+# This will include 2 decimal point. Can change scale to include more (or less) decimal points
+echo " scale=2; ($1-32) / (9/5) + 273.15" | bc
